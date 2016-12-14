@@ -79,7 +79,15 @@ input:focus {
   padding: 20px;
   width: 80%;
   border-radius: 5px;
-
+}
+#dialog1 p {
+  color: #3C6634;
+}
+#dialog1 h1, h2 {
+  text-shadow: 0px 1px 1px black
+}
+#dialog1 h2 {
+  margin-bottom: 15px;
 }
 #formdiv {
   margin: 15% auto; /* 15% from the top and centered */
