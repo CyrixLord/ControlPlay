@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  width: auto;
+}
+#playArea {
+  margin: 0 auto;
+  width: auto;
+}
+
+body {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+.candyButton {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid black;
+  margin: 1px;
+  border-radius: 3px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px black;
+}
+.green:active {
+  background: #CFE5CB; /* for browsers without this support*/
+  background: linear-gradient(#58884F, #CFE5CB); /* was */
+  color: white;
+  box-shadow: 1px 1px 1px black;
+}
+.red:active {
+  background: #CFE5CB; /* for browsers without this support*/
+  background: linear-gradient(red, #FFC0C0); /* was */
+  color: white;
+  box-shadow: 1px 1px 1px black;
+}
+button:focus {
+    border-color: yellow;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+}
+input:focus {
+    border-color: yellow;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+}
+
+.green {
+  /* background-color: #3C6634; */
+  background: #58884F; /* for browsers without this support */
+  color: white;
+  background: linear-gradient(#58884F, #31542B);
+}
+.red {
+  background: red; /* for browsers without this support */
+  color: white;
+  background: linear-gradient(#FF8080, red);
+}
+.grey {
+  background: # #CDD5CC;
+  color: white;
+  background: linear-gradient(#CDD5CC, #9BAB98);
+}
+.lightgrey {
+  background: #D5DBD5;
+  color: white;
+  background: linear-gradient(#D5DBD5, #CDD5CC);
+}
+
+.darkgrey {
+  background: #374237;
+  color: white;
+  background: linear-gradient(#687C68, #374237);
+}
+/* dialog1 */
+#dialog1 {
+  border-color:black;
+  border-style: solid;
+  border-width: 1px;
+  text-align:center;
+  padding: 20px;
+  width: 80%;
+  border-radius: 5px;
+
+}
+#formdiv {
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  width: 80%;
+  border-radius: 5px;
+  /* margin-top:20px; */
+}
